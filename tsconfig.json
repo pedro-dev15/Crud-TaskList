@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
     "module": "ESNext",
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
+    "target": "ES2023",
+    "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "strict": false,
-    "outDir": "dist"
-  },
-  "include": ["src", "prisma.config.ts"]
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  }
 }
